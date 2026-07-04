@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+
+# Generated detection outputs
+yolo_tesseract*.json
+yolo_tesseract*.png
+template_match*.png
+detection_visual.png
+ocr_output.json
+
+*.pt

@@ -1,0 +1,14 @@
+numpy>=1.24
+opencv-python>=4.7
+matplotlib>=3.6
+scipy>=1.10
+scikit-image>=0.20
+tqdm>=4.65
+# Optional (deep matching) - install only if using SuperPoint/LightGlue/LoFTR
+# torch>=1.12; installation depends on CUDA/CPU. See https://pytorch.org
+# kornia>=0.6.0
+# loftr or lightglue implementations (user must install preferred repo)
+# Optional integrations
+ultralytics>=8.0   # YOLOv8 (requires torch)
+pytesseract>=0.3.10  # Python wrapper for Tesseract OCR (requires Tesseract binary)
+# Ensure the Tesseract executable is installed and on PATH for pytesseract to work

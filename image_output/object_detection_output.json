@@ -1,0 +1,487 @@
+{
+  "detection": {
+    "image_path": "image_inputs\\mockup.jpg",
+    "shape": [
+      1080,
+      1920,
+      3
+    ],
+    "detections": [
+      {
+        "bbox": [
+          1493.4259033203125,
+          620.18994140625,
+          1734.5977783203125,
+          916.7607421875
+        ],
+        "confidence": 0.2916103005409241,
+        "class_id": 77,
+        "class_name": "teddy bear"
+      }
+    ]
+  },
+  "ocr": {
+    "image_path": "image_inputs\\mockup.jpg",
+    "text": "- DIAMOND. RUBY : - ne : A SAPPHIRE (i 99999999999 wy 99999999999 s1 = Z / 99999999999 si ft BALANCE BET OTTER zm LUNES BALANCE \u00a2 1 99999999999999 INR | 99999 INR | 99999 INR PLEASE PLACE YOUR BET 100 FIXED | 999999999999 INR | ) a",
+    "words": [
+      {
+        "text": "-",
+        "confidence": 0.0,
+        "left": 18,
+        "top": 30,
+        "width": 10,
+        "height": 7
+      },
+      {
+        "text": "DIAMOND.",
+        "confidence": 83.0,
+        "left": 118,
+        "top": 0,
+        "width": 89,
+        "height": 36
+      },
+      {
+        "text": "RUBY",
+        "confidence": 94.0,
+        "left": 507,
+        "top": 10,
+        "width": 44,
+        "height": 13
+      },
+      {
+        "text": ":",
+        "confidence": 14.0,
+        "left": 708,
+        "top": 19,
+        "width": 5,
+        "height": 2
+      },
+      {
+        "text": "-",
+        "confidence": 63.0,
+        "left": 808,
+        "top": 21,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "text": "ne",
+        "confidence": 41.0,
+        "left": 910,
+        "top": 25,
+        "width": 12,
+        "height": 5
+      },
+      {
+        "text": ":",
+        "confidence": 56.0,
+        "left": 991,
+        "top": 34,
+        "width": 2,
+        "height": 3
+      },
+      {
+        "text": "A",
+        "confidence": 49.0,
+        "left": 1108,
+        "top": 23,
+        "width": 29,
+        "height": 5
+      },
+      {
+        "text": "SAPPHIRE",
+        "confidence": 95.0,
+        "left": 1719,
+        "top": 10,
+        "width": 83,
+        "height": 13
+      },
+      {
+        "text": "(i",
+        "confidence": 33.0,
+        "left": 15,
+        "top": 34,
+        "width": 17,
+        "height": 47
+      },
+      {
+        "text": "99999999999",
+        "confidence": 95.0,
+        "left": 47,
+        "top": 47,
+        "width": 178,
+        "height": 22
+      },
+      {
+        "text": "wy",
+        "confidence": 38.0,
+        "left": 235,
+        "top": 0,
+        "width": 123,
+        "height": 95
+      },
+      {
+        "text": "99999999999",
+        "confidence": 93.0,
+        "left": 404,
+        "top": 47,
+        "width": 178,
+        "height": 22
+      },
+      {
+        "text": "s1",
+        "confidence": 0.0,
+        "left": 592,
+        "top": 54,
+        "width": 26,
+        "height": 15
+      },
+      {
+        "text": "=",
+        "confidence": 27.0,
+        "left": 764,
+        "top": 62,
+        "width": 9,
+        "height": 7
+      },
+      {
+        "text": "Z",
+        "confidence": 0.0,
+        "left": 1105,
+        "top": 53,
+        "width": 9,
+        "height": 10
+      },
+      {
+        "text": "/",
+        "confidence": 23.0,
+        "left": 1179,
+        "top": 70,
+        "width": 2,
+        "height": 4
+      },
+      {
+        "text": "99999999999",
+        "confidence": 96.0,
+        "left": 1673,
+        "top": 47,
+        "width": 178,
+        "height": 22
+      },
+      {
+        "text": "si",
+        "confidence": 68.0,
+        "left": 1861,
+        "top": 54,
+        "width": 26,
+        "height": 15
+      },
+      {
+        "text": "ft",
+        "confidence": 91.0,
+        "left": 19,
+        "top": 1020,
+        "width": 39,
+        "height": 51
+      },
+      {
+        "text": "BALANCE",
+        "confidence": 95.0,
+        "left": 136,
+        "top": 1020,
+        "width": 65,
+        "height": 29
+      },
+      {
+        "text": "BET",
+        "confidence": 88.0,
+        "left": 312,
+        "top": 1020,
+        "width": 24,
+        "height": 29
+      },
+      {
+        "text": "OTTER",
+        "confidence": 0.0,
+        "left": 766,
+        "top": 1032,
+        "width": 68,
+        "height": 14
+      },
+      {
+        "text": "zm",
+        "confidence": 35.0,
+        "left": 1055,
+        "top": 1019,
+        "width": 11,
+        "height": 30
+      },
+      {
+        "text": "LUNES",
+        "confidence": 63.0,
+        "left": 1371,
+        "top": 1020,
+        "width": 41,
+        "height": 29
+      },
+      {
+        "text": "BALANCE",
+        "confidence": 95.0,
+        "left": 1509,
+        "top": 1020,
+        "width": 65,
+        "height": 29
+      },
+      {
+        "text": "\u00a2",
+        "confidence": 15.0,
+        "left": 1665,
+        "top": 1034,
+        "width": 26,
+        "height": 29
+      },
+      {
+        "text": "1",
+        "confidence": 27.0,
+        "left": 1813,
+        "top": 1031,
+        "width": 12,
+        "height": 35
+      },
+      {
+        "text": "99999999999999",
+        "confidence": 92.0,
+        "left": 84,
+        "top": 1055,
+        "width": 140,
+        "height": 13
+      },
+      {
+        "text": "INR",
+        "confidence": 93.0,
+        "left": 231,
+        "top": 1055,
+        "width": 28,
+        "height": 13
+      },
+      {
+        "text": "|",
+        "confidence": 93.0,
+        "left": 268,
+        "top": 1051,
+        "width": 10,
+        "height": 26
+      },
+      {
+        "text": "99999",
+        "confidence": 93.0,
+        "left": 283,
+        "top": 1055,
+        "width": 49,
+        "height": 13
+      },
+      {
+        "text": "INR",
+        "confidence": 96.0,
+        "left": 340,
+        "top": 1055,
+        "width": 28,
+        "height": 13
+      },
+      {
+        "text": "|",
+        "confidence": 95.0,
+        "left": 376,
+        "top": 1051,
+        "width": 10,
+        "height": 26
+      },
+      {
+        "text": "99999",
+        "confidence": 95.0,
+        "left": 392,
+        "top": 1055,
+        "width": 49,
+        "height": 13
+      },
+      {
+        "text": "INR",
+        "confidence": 95.0,
+        "left": 448,
+        "top": 1055,
+        "width": 29,
+        "height": 13
+      },
+      {
+        "text": "PLEASE",
+        "confidence": 95.0,
+        "left": 874,
+        "top": 1060,
+        "width": 48,
+        "height": 10
+      },
+      {
+        "text": "PLACE",
+        "confidence": 96.0,
+        "left": 928,
+        "top": 1060,
+        "width": 41,
+        "height": 10
+      },
+      {
+        "text": "YOUR",
+        "confidence": 96.0,
+        "left": 973,
+        "top": 1060,
+        "width": 39,
+        "height": 10
+      },
+      {
+        "text": "BET",
+        "confidence": 96.0,
+        "left": 1018,
+        "top": 1060,
+        "width": 24,
+        "height": 10
+      },
+      {
+        "text": "100",
+        "confidence": 94.0,
+        "left": 1354,
+        "top": 1055,
+        "width": 29,
+        "height": 13
+      },
+      {
+        "text": "FIXED",
+        "confidence": 95.0,
+        "left": 1390,
+        "top": 1055,
+        "width": 45,
+        "height": 13
+      },
+      {
+        "text": "|",
+        "confidence": 96.0,
+        "left": 1447,
+        "top": 1051,
+        "width": 10,
+        "height": 26
+      },
+      {
+        "text": "999999999999",
+        "confidence": 96.0,
+        "left": 1467,
+        "top": 1055,
+        "width": 120,
+        "height": 13
+      },
+      {
+        "text": "INR",
+        "confidence": 96.0,
+        "left": 1594,
+        "top": 1055,
+        "width": 28,
+        "height": 13
+      },
+      {
+        "text": "|",
+        "confidence": 89.0,
+        "left": 1643,
+        "top": 1032,
+        "width": 1,
+        "height": 38
+      },
+      {
+        "text": ")",
+        "confidence": 88.0,
+        "left": 1689,
+        "top": 1035,
+        "width": 12,
+        "height": 29
+      },
+      {
+        "text": "a",
+        "confidence": 81.0,
+        "left": 1886,
+        "top": 1056,
+        "width": 15,
+        "height": 16
+      }
+    ],
+    "ocr_available": true
+  },
+  "template_match": {
+    "method": "masked_template",
+    "template_path": "image_inputs/templates/symbol1.jpg",
+    "target_path": "image_inputs/mockup.jpg",
+    "transform_type": "axis_aligned_scale",
+    "match_score": 0.705860220586663,
+    "color_score": 0.9109238982200623,
+    "gray_score": 0.6814656257629395,
+    "edge_score": 0.2871574868530307,
+    "confidence": 0.705860220586663,
+    "confidence_threshold": 0.6,
+    "match_found": true,
+    "scale": 0.1540506329113924,
+    "best_candidate_polygon": [
+      [
+        470.0,
+        248.0
+      ],
+      [
+        653.0,
+        248.0
+      ],
+      [
+        653.0,
+        444.0
+      ],
+      [
+        470.0,
+        444.0
+      ]
+    ],
+    "best_candidate_bbox": [
+      470,
+      248,
+      183,
+      196
+    ],
+    "center_x": 561.5,
+    "center_y": 346.0,
+    "center_x_pct": 0.29244791666666664,
+    "center_y_pct": 0.32037037037037036,
+    "width_px": 183,
+    "height_px": 196,
+    "width_pct": 0.0953125,
+    "height_pct": 0.1814814814814815,
+    "scale_x": 0.1540506329113924,
+    "scale_y": 0.1540506329113924,
+    "rotation_deg": 0.0,
+    "polygon": [
+      [
+        470.0,
+        248.0
+      ],
+      [
+        653.0,
+        248.0
+      ],
+      [
+        653.0,
+        444.0
+      ],
+      [
+        470.0,
+        444.0
+      ]
+    ],
+    "bbox": [
+      470,
+      248,
+      183,
+      196
+    ]
+  }
+}
