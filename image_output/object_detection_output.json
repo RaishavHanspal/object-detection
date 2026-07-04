@@ -416,42 +416,186 @@
     "template_path": "image_inputs/templates/symbol1.jpg",
     "target_path": "image_inputs/mockup.jpg",
     "transform_type": "axis_aligned_scale",
-    "match_score": 0.705860220586663,
-    "color_score": 0.9109238982200623,
-    "gray_score": 0.6814656257629395,
-    "edge_score": 0.2871574868530307,
-    "confidence": 0.705860220586663,
+    "match_score": 0.7073767660075594,
+    "color_score": 0.9104236960411072,
+    "gray_score": 0.6810519695281982,
+    "edge_score": 0.29658956727095925,
+    "confidence": 0.7073767660075594,
     "confidence_threshold": 0.6,
     "match_found": true,
+    "match_count": 3,
+    "matches": [
+      {
+        "method": "masked_template",
+        "template_path": "image_inputs/templates/symbol1.jpg",
+        "target_path": "image_inputs/mockup.jpg",
+        "transform_type": "axis_aligned_scale",
+        "confidence": 0.7073767660075594,
+        "match_score": 0.7073767660075594,
+        "color_score": 0.9104236960411072,
+        "gray_score": 0.6810519695281982,
+        "edge_score": 0.29658956727095925,
+        "scale": 0.1540506329113924,
+        "polygon": [
+          [
+            470.0,
+            684.0
+          ],
+          [
+            653.0,
+            684.0
+          ],
+          [
+            653.0,
+            880.0
+          ],
+          [
+            470.0,
+            880.0
+          ]
+        ],
+        "bbox": [
+          470,
+          684,
+          183,
+          196
+        ],
+        "center_x": 561.5,
+        "center_y": 782.0,
+        "center_x_pct": 0.29244791666666664,
+        "center_y_pct": 0.7240740740740741,
+        "width_px": 183,
+        "height_px": 196,
+        "width_pct": 0.0953125,
+        "height_pct": 0.1814814814814815,
+        "scale_x": 0.1540506329113924,
+        "scale_y": 0.1540506329113924,
+        "rotation_deg": 0.0
+      },
+      {
+        "method": "masked_template",
+        "template_path": "image_inputs/templates/symbol1.jpg",
+        "target_path": "image_inputs/mockup.jpg",
+        "transform_type": "axis_aligned_scale",
+        "confidence": 0.7061428366430977,
+        "match_score": 0.7061428366430977,
+        "color_score": 0.9109723567962646,
+        "gray_score": 0.6813311576843262,
+        "edge_score": 0.28869685447632215,
+        "scale": 0.1540506329113924,
+        "polygon": [
+          [
+            1068.0,
+            476.0
+          ],
+          [
+            1251.0,
+            476.0
+          ],
+          [
+            1251.0,
+            672.0
+          ],
+          [
+            1068.0,
+            672.0
+          ]
+        ],
+        "bbox": [
+          1068,
+          476,
+          183,
+          196
+        ],
+        "center_x": 1159.5,
+        "center_y": 574.0,
+        "center_x_pct": 0.60390625,
+        "center_y_pct": 0.5314814814814814,
+        "width_px": 183,
+        "height_px": 196,
+        "width_pct": 0.0953125,
+        "height_pct": 0.1814814814814815,
+        "scale_x": 0.1540506329113924,
+        "scale_y": 0.1540506329113924,
+        "rotation_deg": 0.0
+      },
+      {
+        "method": "masked_template",
+        "template_path": "image_inputs/templates/symbol1.jpg",
+        "target_path": "image_inputs/mockup.jpg",
+        "transform_type": "axis_aligned_scale",
+        "confidence": 0.705860220586663,
+        "match_score": 0.705860220586663,
+        "color_score": 0.9109238982200623,
+        "gray_score": 0.6814656257629395,
+        "edge_score": 0.2871574868530307,
+        "scale": 0.1540506329113924,
+        "polygon": [
+          [
+            470.0,
+            248.0
+          ],
+          [
+            653.0,
+            248.0
+          ],
+          [
+            653.0,
+            444.0
+          ],
+          [
+            470.0,
+            444.0
+          ]
+        ],
+        "bbox": [
+          470,
+          248,
+          183,
+          196
+        ],
+        "center_x": 561.5,
+        "center_y": 346.0,
+        "center_x_pct": 0.29244791666666664,
+        "center_y_pct": 0.32037037037037036,
+        "width_px": 183,
+        "height_px": 196,
+        "width_pct": 0.0953125,
+        "height_pct": 0.1814814814814815,
+        "scale_x": 0.1540506329113924,
+        "scale_y": 0.1540506329113924,
+        "rotation_deg": 0.0
+      }
+    ],
     "scale": 0.1540506329113924,
     "best_candidate_polygon": [
       [
         470.0,
-        248.0
+        684.0
       ],
       [
         653.0,
-        248.0
+        684.0
       ],
       [
         653.0,
-        444.0
+        880.0
       ],
       [
         470.0,
-        444.0
+        880.0
       ]
     ],
     "best_candidate_bbox": [
       470,
-      248,
+      684,
       183,
       196
     ],
     "center_x": 561.5,
-    "center_y": 346.0,
+    "center_y": 782.0,
     "center_x_pct": 0.29244791666666664,
-    "center_y_pct": 0.32037037037037036,
+    "center_y_pct": 0.7240740740740741,
     "width_px": 183,
     "height_px": 196,
     "width_pct": 0.0953125,
@@ -462,24 +606,24 @@
     "polygon": [
       [
         470.0,
-        248.0
+        684.0
       ],
       [
         653.0,
-        248.0
+        684.0
       ],
       [
         653.0,
-        444.0
+        880.0
       ],
       [
         470.0,
-        444.0
+        880.0
       ]
     ],
     "bbox": [
       470,
-      248,
+      684,
       183,
       196
     ]

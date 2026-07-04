@@ -18,6 +18,8 @@ def main():
     parser.add_argument('--template-min-width', type=int, default=32, help='Smallest matched template width to consider')
     parser.add_argument('--template-min-height', type=int, default=32, help='Smallest matched template height to consider')
     parser.add_argument('--template-confidence-threshold', type=float, default=0.6, help='Minimum masked template confidence to report match_found=true')
+    parser.add_argument('--template-max-detections', type=int, default=20, help='Maximum number of template matches to return')
+    parser.add_argument('--template-nms-iou', type=float, default=0.3, help='IoU threshold for merging duplicate template matches')
     parser.add_argument('--no-template', action='store_true', help='Skip template localization')
     parser.add_argument('--yolo-model', default='yolov8n.pt', help='YOLO model name or path')
     parser.add_argument('--conf', type=float, default=0.25, help='YOLO confidence threshold')
@@ -53,6 +55,8 @@ def main():
             min_match_width=args.template_min_width,
             min_match_height=args.template_min_height,
             confidence_threshold=args.template_confidence_threshold,
+            max_detections=args.template_max_detections,
+            nms_iou_threshold=args.template_nms_iou,
         )
         result['template_match'] = template_result
 
@@ -67,6 +71,7 @@ def main():
         print(f"Template bbox: {template_match.get('bbox')}")
         print(f"Template confidence: {template_match.get('confidence')}")
         print(f"Template match_found: {template_match.get('match_found')}")
+        print(f"Template match_count: {template_match.get('match_count')}")
     elif template_match:
         print(f"Template match rejected: confidence {template_match.get('confidence')} below threshold {template_match.get('confidence_threshold')}")
         print(f"Best candidate bbox: {template_match.get('best_candidate_bbox')}")
