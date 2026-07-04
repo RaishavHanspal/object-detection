@@ -7,5 +7,3 @@ yolo_tesseract*.png
 template_match*.png
 detection_visual.png
 ocr_output.json
-
-*.pt
